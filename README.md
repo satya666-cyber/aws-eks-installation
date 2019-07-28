@@ -1,3 +1,14 @@
+#############################################    scipt process  #####################################################################
+
+# Below link for eksctl,kubctl and iam_auth installation
+
+bash <(curl -Ls https://raw.githubusercontent.com/ypmn/aws-eks-installation/master/iam_authen-kubectl-eksctl-install.sh)
+
+
+
+
+#############################################   Below the manual Process ############################################################
+
 # Installing aws-iam-authenticator
 
 curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.13.7/2019-06-11/bin/linux/amd64/aws-iam-authenticator
