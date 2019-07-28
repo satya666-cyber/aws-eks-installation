@@ -90,11 +90,11 @@ eksctl help
 
 # Get cluster info by using below command
 
-eksctl get cluster
+eksctl get cluster --region us-east-2
 
 # Delete the eks-cluster 
 
-eksctl delete cluster --name ttprod --region us-east-2
+eksctl delete cluster --name nethaji-cluster --region us-east-2
 
 
 
