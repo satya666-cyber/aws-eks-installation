@@ -7,7 +7,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/ypmn/aws-eks-installation/mast
 
 
 
-###############################        Below the manual Process     ############################
+###############################        Below the manual Process     #########################
 
 # Installing aws-iam-authenticator
 
