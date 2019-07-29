@@ -9,6 +9,14 @@ bash <(curl -Ls https://raw.githubusercontent.com/ypmn/aws-eks-installation/mast
 
 ###############################        Below the manual Process     #########################
 
+# Install aws cli
+
+sudo apt install python-pip
+
+pip install awscli
+
+export PATH=$PATH:~/.local/bin
+
 # Installing aws-iam-authenticator
 
 curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.13.7/2019-06-11/bin/linux/amd64/aws-iam-authenticator
