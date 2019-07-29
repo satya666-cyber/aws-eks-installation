@@ -13,7 +13,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/ypmn/aws-eks-installation/mast
 
 sudo apt-get update
 
-sudo apt install python-pip
+sudo apt install python-pip -y
 
 pip install awscli
 
