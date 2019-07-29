@@ -11,6 +11,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/ypmn/aws-eks-installation/mast
 
 # Install aws cli
 
+sudo apt-get update
+
 sudo apt install python-pip
 
 pip install awscli
