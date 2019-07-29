@@ -2,7 +2,7 @@ echo " AWS CLI Installation"
 
 sudo apt-get update 
 
-sudo apt install python-pip -y
+sudo apt-get install python-pip -y
 
 pip install awscli
 
