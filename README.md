@@ -1,6 +1,6 @@
 ###############################          scipt process        ###################################
 
-# Below link for eksctl,kubctl and aws-iam-authenticator
+# Below link for eksctl,kubctl,aws-cli and aws-iam-authenticator
 
 bash <(curl -Ls https://raw.githubusercontent.com/ypmn/aws-eks-installation/master/iam_authen-kubectl-eksctl-install.sh)
 
